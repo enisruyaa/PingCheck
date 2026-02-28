@@ -119,7 +119,7 @@ namespace PingCheck
 
             if (ipList.Length == 0)
             {
-                MessageBox.Show("En az bir IP adresi giriniz.");
+                MessageBox.Show("Please enter at least one IP address.");
                 return;
             }
 
